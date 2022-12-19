@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgray;
+            color: blue;
+        }
+        h1{
+            background-color: black;
+            color: green;
+        }
+        div{
+            background-color: blue;
+            color: white;
+        }
+        h2{
+            text-align: center;
+        }
+        h3{
+            text-align: right;
+        }
+        h4{
+            text-align: left;
+        }
+        h5{
+            text-align: justify;
+        }
+        p{
+            direction: rtl;
+            unicode-bidi: bidi-override;
+        }
+        img.a{
+            vertical-align: baseline;
+        }
+        img.b{
+            vertical-align: text-top;
+        }
+        img.c{
+            vertical-align: text-bottom;
+        }
+        img.d{
+            vertical-align: sub;
+        }
+        img.e{
+            vertical-align: super;
+        }
+    </style>
+</head>
+<body>
+    <h1>background-color is black</h1>
+    <div>background-color : blue</div>
+    <h2>Center Aligned text</h2>
+    <h3>Text Align : right</h3>
+    <h4>Text Align : left</h4>
+    <h5>Text Align : justify</h5>
+
+    <h1>The vertical-align Property</h1>
+
+    <h2>vertical-align: baseline (default):</h2>
+    <p>An <img class="a" src="envelope.svg" width="9" height="9"> image with a default alignment.</p> 
+
+    <h2>vertical-align: text-top:</h2>
+    <p>An <img class="b" src="envelope.svg" width="9" height="9"> image with a text-top alignment.</p> 
+
+    <h2>vertical-align: text-bottom:</h2>
+    <p>An <img class="c" src="envelope.svg" width="9" height="9"> image with a text-bottom alignment.</p>
+
+    <h2>vertical-align: sub:</h2>
+    <p>An <img class="d" src="envelope.svg" width="9" height="9"> image with a sub alignment.</p> 
+
+    <h2>vertical-align: sup:</h2>
+    <p>An <img class="e" src="envelope.svg" width="9" height="9"> image with a super alignment.</p>
+
+</body>
+</html>

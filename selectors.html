@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        *{
+            font-weight: bolder;
+            color: gray;
+            text-align: center;
+        }
+        p{
+            text-align: center; /* this aligns text in center*/
+            color: red;
+        }
+
+        #para1{
+            text-align: center;
+            color: blue;
+        }
+        .center{
+            text-align: center;
+            color: green;
+        }
+        p.center{
+            text-align: center;
+            color: black;
+        }
+        .class1{
+            text-align: center;
+        }
+        .class2{
+            color: aqua
+        }
+    </style>
+</head>
+<body>
+    <p>CSS Selector Example</p>
+    <p id="para1">Id Selector</p>
+    <p class="center">Class Selector</p>
+    <p class="class1 class2">This paragraph refers to two classes</p>
+    <h1>Text is bold due to universal selector is defined</h1>
+</body>
+</html>
